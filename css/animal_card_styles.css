@@ -1,0 +1,41 @@
+.coding {
+	font-family: Optima, "Segoe UI", Arial, sans-serif;
+	text-align: center;
+	width:  320px;
+	box-shadow: 10px 10px 4px, 0px 0px 2px;
+	margin: 1em auto 2em;
+	border: solid black 1px;
+	border-radius: 5px;
+}
+
+.animal-card {
+	font-size: 15px;
+	padding: 2%;
+}
+
+.animal-image {
+	width: 300px;
+	border-radius: 5px;
+	border: solid black 1px;
+}
+
+.content-box {
+	text-align: left;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 5px;
+
+}
+
+ul {
+	text-align: left;
+	list-style: none;
+}
+
+.cool-fact {
+	font-style: italic;
+}
+
+.name {
+	font-weight: bold;
+}

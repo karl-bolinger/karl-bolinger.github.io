@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+
+/* ---- grid ---- */
+
+.grid {
+  background: clear;
+  width: 100%
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 333px;
+  padding: 5px;
+}
+
+.grid-item {
+  float: left;
+  padding: 0 30px;
+  margin-bottom: 10px;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+}
